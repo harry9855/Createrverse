@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+
+<head th:fragment="short-navbar-css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Creater Verse</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+    <!--Bootstrap  -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="Bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" th:href="@{css/shortnavbar.css}">
+
+</head>
+<body>
+
+<div class="d-flex navbar-block" th:fragment="short-navbar">
+    <!-- Main Content -->
+    <div  class="main-content flex-grow-1 p-4">
+        <h3 class="text-center rivian-logo">CREATERVERSE</h3>
+    </div>
+</div>
+
+<script src="Bootstrap/bootstrap.min.js"></script>
+</body>
+</html>
